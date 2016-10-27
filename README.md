@@ -1,3 +1,5 @@
+# iBus2PWM
+
 It seemed to me a bad idea to give all control Arduino. I offer to the flight controller to submit the PPM from the receiver, 8 and 9 channels ibus convert PWM and display 3 and 11 pins Arduino.
 
 
