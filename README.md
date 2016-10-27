@@ -1,3 +1,7 @@
+It seemed to me a bad idea to give all control Arduino. I offer to the flight controller to submit the PPM from the receiver, 8 and 9 channels ibus convert PWM and display 3 and 11 pins Arduino.
+
+
+
 # iBus2PPM
 Arduino code to read iBus over serial port, and output PPM to FlightController. 
 
@@ -15,4 +19,4 @@ The Arduino Nano makes things more difficult, as you have Vin/5V on one side, an
 
 By default, PPM output is on pin 2, next to a GND pin, to allow you to easily connect it to anything, including stuff with a different power supply.
 
-See this document for detailed setup: [iBus2PPM-instructions.md](./iBus2PPM-instructions.md)
+See this document for detailed setup: [iBus2PWM-instructions.md](./iBus2PWM-instructions.md)
